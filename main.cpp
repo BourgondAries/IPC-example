@@ -7,6 +7,6 @@ int main()
 	int character;
 	while ((character = fifo.get()) != -1)
 	{
-		std::cout << character;
+		std::cout << static_cast<char>(character);
 	}
 }
